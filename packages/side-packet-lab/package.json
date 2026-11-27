@@ -1,0 +1,14 @@
+{
+  "name": "@colyseus/side-packet-lab",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Three packets, two screens, one shared screen: 26 / 30 / 30 byte contract",
+  "scripts": {
+    "test": "node --test --test-reporter=spec test/*.test.ts",
+    "preview": "node script/preview.ts"
+  },
+  "engines": {
+    "node": ">= 22.x"
+  }
+}

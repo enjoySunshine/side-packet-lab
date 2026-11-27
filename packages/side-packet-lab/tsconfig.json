@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig/tsconfig.all.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ESNext",
+    "noEmit": true,
+    "rootDir": "."
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts", "script/**/*.ts"]
+}
